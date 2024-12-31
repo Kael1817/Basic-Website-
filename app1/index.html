@@ -18,12 +18,26 @@
   </head>
 
   <body>
+   <nav class="navigation__container">
+    <div class="navigation__logo">
+      <img src="images/logo.png" alt="logo">
+    </div>
+
+    <div class="navigation__link-container">
+      <a href="" class="navigation__link">Home</a>
+      <a href="#feature_page" class="navigation__link">About Us</a>
+      <a href="#cta_page" class="navigation__link">Contact Us</a>
+      <a href="#programs_page" class="navigation__link">Blog</a>
+    </div>
+   </nav>
+
     <header class="hero">
       <h1 class="hero__title">EMPOWER YOUNGS MINDS</h1>
       <p class="hero__description">Discover a world of learning posibilities with our <span id="hero__highlight">innovative </span>education platform</p>
     </header>
 
-    <section class="feature">
+    <section id="feature_page">
+      <div class="feature">
       <div class="feature__container">
         <div class="feature__item">
           <h2 class="feature__title ">
@@ -56,9 +70,10 @@
       <div class="feature__image-container">
         <img src="images/features.jpg" alt="Feature image" class="feature__image">
       </div>
+      </div>
     </section>
 
-    <section class="cta">
+    <section class="cta" id="cta_page">
       <h3 class="cta__title">Learn More About Us by Contacting Us</h3>
       <p class="cta__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor consectetur fugit illo itaque, saepe voluptatum aperiam officiis ex ut modi?</p>
       <button class="cta__button cta__button--primary">Learn More</button>
@@ -80,7 +95,7 @@
       <div class="video__container"></div>
     </section>
 
-    <section class="programs">
+    <section class="programs" id="programs_page">
       <h2 >Explore our State of the Art Facilities and Enriching Learning Experience </h2>
       <div class="programs__cards">
         <div class="programs__card">
@@ -134,11 +149,56 @@
                 </select>
               </div>
 
-              <button type="submit" class="button">Submit Form</button>
+              <button type="submit" class="element__button">Submit Form</button>
             </form>
           </div>
         </div>
     </section>
+    <footer class="footer_page">
+      <div class="footer__container">
+        <div class="logo__container">
+          <img src="images/logo.png" alt="logo">
+          <p>Empowering the next generation of learners with innovative educational solutions.</p>
+          <button class="footer__button">Learn More</button>
+        </div>
 
+        <div class="footer__links-container">
+          <div class="footer__columns">
+            <h4>Quick Links</h4>
+            <a href="#" class="footer__item">About Us</a>
+            <a href="#" class="footer__item">Features</a>
+            <a href="#" class="footer__item">Programs</a>
+            <a href="#" class="footer__item">Blog</a>
+          </div>
+          <div class="footer__columns">
+            <h4>Resources</h4>
+            <a href="" class="footer__item">Help Center</a>
+            <a href="" class="footer__item">Terms of Use</a>
+            <a href="" class="footer__item">Privacy Policy</a>
+          </div>
+          <div class="footer__columns">
+            <h4>Connect with us</h4>
+            <div class="footer__socials">
+              <a href="">
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a href="">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__note">
+        <p>© 2024 All rights reserved.</p>
+      </div>
+    </footer>
   </body>
 </html>
